@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:plants_app_flutter/constants.dart';
 import 'package:plants_app_flutter/screens/home/home_screen.dart';
 
 void main() {
+
+  SystemChrome.setSystemUIOverlayStyle(
+       const SystemUiOverlayStyle(
+         statusBarColor: Colors.transparent
+         //color set to transperent or set your own color
+      )
+  );
+  
   runApp(const MyApp());
 }
 
