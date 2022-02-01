@@ -34,14 +34,18 @@ class DetailsFooter extends StatelessWidget {
             )
         ),
         Expanded(
-          child: TextButton(
-              
-              onPressed: () {},
-              child: const Text(
-                "Description",
-                style: TextStyle(color: kTextColor, fontSize: 16),
+          
+          child: Container(
+            height: 80,
+            child: TextButton(
+                
+                onPressed: () {},
+                child: const Text(
+                  "Description",
+                  style: TextStyle(color: kTextColor, fontSize: 16),
+                ),
               ),
-            )
+          )
         )
 
       ],
