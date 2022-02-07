@@ -10,3 +10,4 @@ My 1st Ui development using Flutter
 
 ## You can see the Demo :
 
+![](https://github.com/HarshilPatel18/plants_app_flutter/blob/master/assets/plants_app.gif)
